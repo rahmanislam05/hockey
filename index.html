@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,35 +11,81 @@
     <!-- custom styles with tailwind css -->
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'btn-bg': '#FF4240',
+                        'p-color': '#13131899',
+                        'footer-color': '#ffffff99',
+                    }
+                }
             }
-          }
         }
     </script>
     <!-- manrope font from goole font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&  display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&  display=swap"
+        rel="stylesheet">
     <!-- style for font style -->
     <style>
         font-manrope {
             font-family: 'Manrope', sans-serif;
         }
     </style>
+    <!-- font awesome cnd link -->
+    <script src="https://kit.fontawesome.com/7e79c61d8c.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <header>
-        
-    </header>
-    <main>
 
+<body class="font-manrope p-5 lg:p-0">
+    <header class="container mx-auto">
+        <!-- navbar section start -->
+        <nav class="mb-14">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-p-color">
+                            <li><a class="text-btn-bg font-bold">Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Bolg</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="text-3xl font-extrabold p-0">Hockey<span class="text-btn-bg">'</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-p-color ">
+                        <li><a class="text-btn-bg font-bold">Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Bolg</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end gap-6">
+                    <i class="fa-solid text-[#89898B] hidden lg:visible lg:text-xl fa-magnifying-glass"></i>
+                    <a class="btn bg-btn-bg font-bold text-sm text-white px-6 py-4">Get Ticket</a>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main class="container mx-auto">
+       
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
