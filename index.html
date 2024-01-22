@@ -38,10 +38,10 @@
     <script src="https://kit.fontawesome.com/7e79c61d8c.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="font-manrope p-5 lg:p-0">
-    <header class="container mx-auto">
+<body class="font-manrope">
+    <header class="container mx-auto  p-5 lg:p-0">
         <!-- navbar section start -->
-        <nav class="mb-14">
+        <nav class="mb-6 lg:mb-14">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -73,18 +73,65 @@
                     </ul>
                 </div>
                 <div class="navbar-end gap-6">
-                    <i class="fa-solid text-[#89898B] hidden lg:visible lg:text-xl fa-magnifying-glass"></i>
+                    <i class="fa-solid text-[#89898B] invisible lg:visible lg:text-xl fa-magnifying-glass"></i>
                     <a class="btn bg-btn-bg font-bold text-sm text-white px-6 py-4">Get Ticket</a>
                 </div>
             </div>
         </nav>
+        <!-- banner section start -->
 
     </header>
-    <main class="container mx-auto">
-       
+    <main class="container mx-auto  p-5 lg:p-0">
+   
     </main>
-    <footer>
-
+    <footer class="flex gap-10 flex-col lg:flex-row p-12 lg:p-24 bg-black">
+        <div class="text-center lg:text-left">
+            <h3 class="text-white font-extrabold text-2xl">Get In Touch</h3>
+            <div class="text-footer-color flex flex-col gap-2 font-medium">
+                <p class="my-5 mr-0 lg:mr-16">We are an inclusive hockey club that welcomes all who want to play hockey and be part of a thriving local sports club.</p>
+                <div class="flex flex-col lg:items-start items-center gap-3">
+                    <div class="flex gap-2">
+                        <img src="./Images/Frame.png" alt="">
+                        <p>hockeys@support.com</p>
+                    </div>
+                    <div class="flex gap-2">
+                        <img src="./Images/Frame (1).png" alt="">
+                        <p>(+62) 123-321-543</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid w-full gap-y-11 grid-cols-2 lg:grid-cols-3 mt-10 lg:mt-0">
+            <nav>
+                <header class="text-white font-bold text-lg mb-7">Company</header>
+                <div class="text-footer-color flex flex-col gap-2 font-medium">
+                    <a class="link link-hover">About us</a>
+                    <a class="link link-hover">Leadership</a>
+                    <a class="link link-hover">Careers</a>
+                    <a class="link link-hover">News & Article</a>
+                    <a class="link link-hover">Legal Notice</a>
+                </div>
+            </nav>
+            <nav>
+                <header class="text-white font-bold text-lg mb-7">Support</header>
+                <div class="text-footer-color flex flex-col gap-2 font-medium">
+                    <a class="link link-hover">Help Center</a>
+                    <a class="link link-hover">FAQ</a>
+                    <a class="link link-hover">Ticket Support</a>
+                    <a class="link link-hover">Contact Us</a>
+                </div>
+            </nav>
+            <nav>
+                <header class="text-white font-bold text-lg mb-7">Services</header>
+                <div class="text-footer-color flex flex-col gap-2 font-medium">
+                    <a class="link link-hover">Academy</a>
+                    <a class="link link-hover">Group Lesson</a>
+                    <a class="link link-hover">privet Lesson</a>
+                    <a class="link link-hover">Hockeys For Kids</a>
+                    <a class="link link-hover">Hockeys For Adult</a>
+                </div>
+            </nav>
+        </div>
     </footer>
 </body>
 
